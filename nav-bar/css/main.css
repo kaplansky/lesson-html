@@ -1,0 +1,125 @@
+*::-webkit-input-placeholder {
+	color: #666;
+	opacity: 1;
+}
+*:-moz-placeholder {
+	color: #666;
+	opacity: 1;
+}
+*::-moz-placeholder {
+	color: #666;
+	opacity: 1;
+}
+*:-ms-input-placeholder {
+	color: #666;
+	opacity: 1;
+}
+
+body input:focus:required:invalid,
+body textarea:focus:required:invalid {
+	
+}
+body input:required:valid,
+body textarea:required:valid {
+	
+}
+body {
+	font-family: "RobotoRegular", sans-serif;
+	font-size: 16px;
+	min-width: 320px;
+	position: relative;
+}
+.hidden {
+	display: none;
+}
+.carousel img {
+	width: 100%;
+	height: auto;
+}
+.parallax {
+	background-attachment: fixed;
+	background-position: 50% 0;
+	position: relative;
+}
+
+header{
+	background-image: url(../img/hero-one-touch.jpg);
+	min-height: 600px;
+	background-position: 50% 50%;
+	background-size: cover;
+}
+
+header a{
+	color:#fff;
+}
+
+.top_line{
+	height: 80px;
+	border-bottom: 1px solid rgba(255,255,255,.3);
+}
+
+.logo{
+	float:left;
+}
+
+.logo img{
+	width: 150px;
+  margin-top: 20px;
+}
+
+.nav_bar{
+	display: inline-block;
+}
+.nav_bar ul{
+	text-align: center;
+	margin: 0;
+  padding: 0;
+  display: inline-block;
+  margin-left: 115px;
+}
+
+.nav_bar a{
+	padding: 29px 50px;
+  display: block;
+  margin-right:3px;
+  font-weight: bold;
+  text-transform: uppercase;
+  font-size: 14px;
+}
+
+.nav_bar a:hover{
+	border-bottom: 2px solid #fff;
+}
+
+li{
+	display: inline-block;
+	list-style: none;
+}
+
+.reg_but {
+	float: right;
+	display: inline-block;
+	margin-top:28px;
+}
+
+.reg_but a{
+	margin-right: 4px;
+  font-size: 12px;
+  font-weight: bold;
+  box-shadow: 0 0 0 1px #fff,0 0 0 1px #fff;
+  border-radius: 25px;
+}
+
+.reg_but a:hover{
+	text-decoration: underline
+}
+
+.log{
+	padding: 10px 26px;
+}
+
+.sing{
+	padding: 10px 22px;
+	color: #000;
+	background-color: #fff;
+}
